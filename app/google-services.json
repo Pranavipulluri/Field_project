@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "583663057273",
+    "firebase_url": "https://field-project-9efc4-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "field-project-9efc4",
+    "storage_bucket": "field-project-9efc4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583663057273:android:dba93659c6f920f52717a8",
+        "android_client_info": {
+          "package_name": "org.meicode.fieldproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyVfyyGrsHO-5JDuqL7j1pp66Lqe0g2Aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583663057273:android:a9da96c799ea6d002717a8",
+        "android_client_info": {
+          "package_name": "org.meicode.fp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyVfyyGrsHO-5JDuqL7j1pp66Lqe0g2Aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Description Input -->
+    <EditText
+        android:id="@+id/descriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Write a description"
+        android:inputType="textMultiLine" />
+
+    <!-- Image Upload Button -->
+    <Button
+        android:id="@+id/selectImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image"/>
+
+    <!-- Preview Image -->
+    <ImageView
+        android:id="@+id/imagePreview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_2"/>
+
+    <!-- Upload Button -->
+    <Button
+        android:id="@+id/uploadImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:enabled="false"/>
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/searchShopsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Shops"
+        android:enabled="false"/>
+</LinearLayout>

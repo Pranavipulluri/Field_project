@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title Input Field -->
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="385dp"
+        android:layout_height="62dp"
+        android:hint="Title"
+        android:inputType="text" />
+
+    <!-- Description Input Field -->
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="385dp"
+        android:layout_height="64dp"
+        android:hint="Description"
+        android:inputType="text" />
+
+    <!-- Price Input Field -->
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="379dp"
+        android:layout_height="62dp"
+        android:hint="Price"
+        android:importantForAccessibility="yes"
+        android:inputType="numberDecimal" />
+
+    <!-- Image Selection -->
+    <ImageView
+        android:id="@+id/workImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/img_2" />
+
+    <!-- Upload Button -->
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="382dp"
+        android:layout_height="59dp"
+        android:text="Upload Work" />
+</LinearLayout>

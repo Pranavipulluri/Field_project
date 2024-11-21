@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Shop Name -->
+        <EditText
+            android:id="@+id/editTextShopName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shop Name"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Shop Phone Number -->
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Shop Address -->
+        <EditText
+            android:id="@+id/editTextShopAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shop Address"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Shop Banner Image -->
+        <ImageView
+            android:id="@+id/imageViewBanner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/ic_banner"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop" />
+
+        <!-- Shop Description -->
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shop Description"
+            android:inputType="textMultiLine"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btnSaveProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Profile"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

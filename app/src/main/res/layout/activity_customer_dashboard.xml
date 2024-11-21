@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Search Bar -->
+    <EditText
+        android:id="@+id/searchShopsEditText"
+        android:layout_width="383dp"
+        android:layout_height="62dp"
+        android:hint="Search for shops"
+        android:inputType="text" />
+
+    <!-- RecyclerView to show products -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Bottom Icons -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="16dp">
+
+        <ImageButton
+            android:id="@+id/imageUploadButton"
+            android:layout_width="114dp"
+            android:layout_height="134dp"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="Upload Image"
+            android:src="@drawable/img_2" />
+
+        <ImageButton
+            android:id="@+id/messageButton"
+            android:layout_width="135dp"
+            android:layout_height="122dp"
+            android:contentDescription="Message Activity"
+            android:src="@drawable/img_5" />
+
+    </LinearLayout>
+
+</LinearLayout>

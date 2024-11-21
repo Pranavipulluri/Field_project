@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#009688"/> <!-- Background color of the search box -->
+    <corners android:radius="16dp"/> <!-- Adjust the radius to control the roundness -->
+    <stroke
+        android:width="2dp"
+        android:color="#BDBDBD"/> <!-- Optional: Border for the search box -->
+</shape>

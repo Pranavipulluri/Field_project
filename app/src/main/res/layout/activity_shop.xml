@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7FA">
+
+    <!-- Top Bar with Chat Icon -->
+
+    <!-- Seller Information Section -->
+
+    <!-- Previous Designs Section -->
+
+    <!-- RecyclerView for Previous Work -->
+
+    <!-- Floating Action Button for Adding New Work -->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="648dp"
+        android:background="#6200EE"
+        android:padding="8dp">
+
+        <!-- Chat Icon -->
+        <ImageView
+            android:id="@+id/chatIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:src="@drawable/ic_chat" />
+
+        <TextView
+            android:id="@+id/shopName"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="221dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@+id/chatIcon"
+            android:text="Shop Name"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topBar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="307dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Seller Profile and Info -->
+
+        <ImageView
+            android:id="@+id/shopBanner"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_banner" />
+
+        <TextView
+            android:id="@+id/shopDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Shop description goes here..." />
+
+        <TextView
+            android:id="@+id/shopAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/shopPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Phone: 123-456-7890" />
+
+        <!-- Google Maps Icon for Location -->
+        <ImageView
+            android:id="@+id/locationIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_map" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/previousDesignsRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/previousDesignsLabel"
+        android:layout_marginTop="763dp"
+        android:padding="8dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:tint="@android:color/white"
+        android:backgroundTint="@color/purple_500" />
+
+    <TextView
+        android:id="@+id/previousDesignsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:text="Previous Designs"
+        android:layout_marginTop="443dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

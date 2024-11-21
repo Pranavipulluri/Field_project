@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Shop Banner & Info -->
+    <ImageView
+        android:id="@+id/shopImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img_3" />
+
+    <TextView
+        android:id="@+id/shopName"
+        android:text="Shop Name"
+        android:textSize="20sp"
+        android:layout_height="25dp"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/shopDescription"
+        android:text="Shop Description"
+        android:layout_height="25dp"
+        android:layout_width="match_parent"/>
+
+    <!-- List of Products -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Button to Message the Shop -->
+    <Button
+        android:id="@+id/messageButton"
+        android:text="Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Location Map -->
+    <Button
+        android:id="@+id/viewLocationButton"
+        android:text="View on Map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
